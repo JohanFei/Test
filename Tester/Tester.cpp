@@ -13,6 +13,7 @@ int main()
 	Persons.push_back(new Teacher("Anders", 2, 25));
 	Persons.push_back(new Teacher("Dudda", 3, 21));
 	Persons.push_back(new Teacher("Per", 4, 28));
+	Persons.push_back(new Teacher("Allan", 5, 72));
 	for (auto *person:Persons)
 	{
 		cout << person->printPerson();
