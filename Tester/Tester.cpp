@@ -16,6 +16,10 @@ int main()
 	Persons.push_back(new Teacher("Dudda", 3, 21));
 	Persons.push_back(new Teacher("Per", 4, 28));
 	Persons.push_back(new Teacher("Allan", 5, 72));
+	Persons.push_back(new Teacher("Måns", 6, 45));
+	Persons[0]->addPerson(Persons[8]);
+	Persons[0]->addPerson(Persons[9]);
+	Persons[0]->addPerson(Persons[10]);
 	for (auto *person:Persons)
 	{
 		cout << person->printPerson();

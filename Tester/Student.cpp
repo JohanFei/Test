@@ -26,3 +26,21 @@ string Student::printPerson()
 {
 	return "---------------------------\n         STUDENT\n---------------------------\n" + Person::printPerson();
 }
+
+void Student::addPerson(Person* person)
+{
+	if (!Teacher) {
+		Teacher = person;
+	}
+	else {
+		Person* curr = Teacher;
+		while (curr->getPerson())
+			curr = curr->getPerson();
+		curr->setPerson(person);
+	}
+}
+
+void Student::setPerson(Person* person)
+{
+	this->Teacher = person;
+}

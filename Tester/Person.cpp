@@ -1,5 +1,10 @@
 #include "Person.h"
 
+Person* Person::getPerson()
+{
+	return nullptr;
+}
+
 Person::Person()
 {
 	id = 0;
@@ -32,4 +37,12 @@ string Person::getName()
 string Person::printPerson()
 {
 	return "Name: " + name + "\nAge: "+ to_string(age) +"\n";
+}
+
+void Person::addPerson(Person* person)
+{
+}
+
+void Person::setPerson(Person* person)
+{
 }
