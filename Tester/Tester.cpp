@@ -11,6 +11,7 @@ int main()
 	Persons.push_back(new Student("Lars", 5, 58));
 	Persons.push_back(new Student("Franziska", 6, 60));
 	Persons.push_back(new Student("Orvar", 7, 19));
+	Persons.push_back(new Student("Jessica", 8, 28));
 	Persons.push_back(new Teacher("Anders", 2, 25));
 	Persons.push_back(new Teacher("Dudda", 3, 21));
 	Persons.push_back(new Teacher("Per", 4, 28));
